@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name"            : "HUMI",
+  "version"         : "1.0",
+  "description"     : "Add buttons into FB feed items.",
+  "icons"           : { "48": "humi-48.png" },
+  "content_scripts" : [ { "matches": [ "*://*.facebook.com/*" ],
+                          "js"     : [ "fb1.js"               ]  } ]
+}
